@@ -28,9 +28,21 @@ const cgpa = 7.8
 // const newString4 = userName.slice(-6,4);//start counting from reverse 6 then from last reached step to (4-1)th index 
 // console.log(newString4); // irm
 
-const url = "https://bug-free-fiesta-q7457959r456cxp5r.github.dev/";
-console.log(url);
+// const url = "https://bug-free-fiesta-q7457959r456cxp5r.github.dev/";
+// console.log(url);
 
 
-const url2 = url.replace('bug', 'hug')
-console.log(url2);
+// const url2 = url.replace('bug', 'hug')
+// console.log(url2);
+
+// split 
+const str = "The quick brown fox";
+const words = str.split(" "); 
+console.log(words);
+
+// ["The", "quick", "brown", "fox"]
+
+const str1 = "Hello";
+const chars = str1.split(""); 
+// ["H", "e", "l", "l", "o"]
+console.log(chars);
