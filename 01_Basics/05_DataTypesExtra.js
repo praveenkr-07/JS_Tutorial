@@ -16,6 +16,7 @@ console.log(id == anotherId);
 
 // Refrence type (Non Primitive)
 // array , objects , functions
+
 const heros = ["Praveen","Sanchit","Rahul"];
 let myObje = {
     name : "Praveen",
