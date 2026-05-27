@@ -27,3 +27,10 @@ const cgpa = 7.8
  
 // const newString4 = userName.slice(-6,4);//start counting from reverse 6 then from last reached step to (4-1)th index 
 // console.log(newString4); // irm
+
+const url = "https://bug-free-fiesta-q7457959r456cxp5r.github.dev/";
+console.log(url);
+
+
+const url2 = url.replace('bug', 'hug')
+console.log(url2);
